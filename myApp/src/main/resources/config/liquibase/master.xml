@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="classpath:config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927164307_added_entity_Dormitory.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927164308_added_entity_School.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927164309_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927164310_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927165816_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927165817_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927170309_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927192901_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927192902_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194010_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194011_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194456_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194841_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194842_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927221213_added_entity_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927221214_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="classpath:config/liquibase/changelog/20160927164309_added_entity_constraints_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927164310_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927165816_added_entity_constraints_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927165817_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927170309_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927192902_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194010_added_entity_constraints_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194011_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194456_added_entity_constraints_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927194842_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927221213_added_entity_constraints_PreferredContact.xml" relativeToChangelogFile="false"/>
+    <include file="classpath:config/liquibase/changelog/20160927221214_added_entity_constraints_Student.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+</databaseChangeLog>

@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "student",
+            "otherEntityName": "student",
+            "otherEntityField": "fullName"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nameOfChoice",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160927221213",
+    "javadoc": "not an ignored comment",
+    "entityTableName": "preferred_contact",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

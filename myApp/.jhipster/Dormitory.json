@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "student",
+            "otherEntityName": "student",
+            "otherEntityRelationshipName": "dormitory"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "dormName",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20160927164307",
+    "entityTableName": "dormitory",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}
