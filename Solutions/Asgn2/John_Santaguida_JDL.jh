@@ -1,0 +1,41 @@
+entity Dormitory {
+	dormName String
+}
+
+entity School {
+	schoolName String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity PreferredContact{
+	nameOfChoice String
+}
+
+entity Student {
+	fullName String,
+	emailAddress String,
+	phoneNumber String,
+	graduationDate LocalDate
+}
+
+
+
+relationship OneToMany {
+	Student{preferredContact(nameOfChoice)} to PreferredContact{student(fullName)}
+}
+
+
+// defining multiple OneToMany relationships 
+relationship OneToMany {
+	Dormitory{student(fullName)} to Student{dormitory(dormName)}
+}
+
+relationship OneToMany {
+	School{student(fullName)} to Student{school(schoolName)}
+}
+
+
+
+
+
